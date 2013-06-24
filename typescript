@@ -1,0 +1,19 @@
+Script started on Mon Jun 24 13:50:33 2013
+[?1034hbash-3.2$ .[Kcd script
+bash-3.2$ ls
+bootstrap		boxen-bootstrap		boxen-my-config		sync
+boxen			boxen-git-credential	nuke
+bash-3.2$ ./boxen
+Boxen has a dirty tree, won't auto-update!
+Boxen Keychain Helper: Encountered error code: -25300
+Error: The specified item could not be found in the keychain.
+Boxen Keychain Helper: Encountered error code: -25300
+Error: The specified item could not be found in the keychain.
+[33m--> Hey, I need your current GitHub credentials to continue.[0m
+
+GitHub login: |M8M| middle8media
+GitHub password: ********************
+Password for sudo: 
+[1;31mError: Please enable full disk encryption and try again at /opt/boxen/repo/manifests/site.pp:63 on node seths-macbook-air.local[0m
+[1;31mError: Please enable full disk encryption and try again at /opt/boxen/repo/manifests/site.pp:63 on node seths-macbook-air.local[0m
+bash-3.2$ 
